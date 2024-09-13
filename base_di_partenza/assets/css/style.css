@@ -276,3 +276,33 @@ button {
     opacity: 1;
   }
 }
+
+/* RESPONSIVE TABLET  */
+
+@media screen and (min-width: 576px) and (max-width: 1000px) {
+  .nav-bar {
+    padding-inline: 2rem;
+  }
+  .totalmain {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-inline: 2rem;
+  }
+
+  .sectiondue {
+    padding: 4rem;
+    padding-block: 2rem;
+  }
+  .container {
+    width: 45%;
+  }
+  .text-hero {
+    padding-inline: 2rem;
+  }
+  article {
+    padding-inline: 2rem;
+  }
+  footer {
+    padding-right: 0;
+  }
+}
