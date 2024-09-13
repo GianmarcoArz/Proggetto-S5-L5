@@ -1,6 +1,6 @@
 const navbar = document.querySelector(".nav-bar");
 const buttonblack = document.querySelector(".buttonblack");
-const asseY = 520;
+const asseY = 350;
 
 const color = function () {
   if (window.scrollY > asseY) {

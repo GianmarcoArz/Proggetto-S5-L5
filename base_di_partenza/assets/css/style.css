@@ -131,8 +131,7 @@ article {
 
 .card-time {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
   color: rgba(0, 0, 0, 0.504);
 }
 
@@ -247,8 +246,33 @@ button {
 
 .nav-bar-bianca {
   background-color: white;
+  animation: fade-in 500ms both;
 }
 
 .buttongreen {
   background-color: #538724;
+  animation: fade-in 500ms both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
