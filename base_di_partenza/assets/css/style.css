@@ -306,3 +306,41 @@ button {
     padding-right: 0;
   }
 }
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (min-width: 180px) and (max-width: 576px) {
+  span {
+    display: none;
+  }
+  ul li:nth-child(-n + 3) {
+    display: none;
+  }
+  .nav-bar {
+    padding-inline: 1rem;
+    justify-content: space-between;
+  }
+  .text-hero {
+    padding-inline: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .container {
+    width: 95%;
+    padding-block: 1rem;
+  }
+  article {
+    padding-inline: 1rem;
+  }
+  .sectiondue {
+    padding: 1rem;
+    padding-block: 1.5rem;
+  }
+  .totalmain {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-inline: 1rem;
+  }
+  footer {
+    padding-right: 0;
+  }
+}
